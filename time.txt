@@ -1,0 +1,5 @@
+sleep - 8
+eating - 1.2 (https://www.foodnetwork.com/fn-dish/news/2015/07/guess-how-much-time-you-spend-eating-on-an-average-day)
+commute - 0.5 (https://www.businessinsider.in/Heres-what-the-average-person-spends-on-their-commute-annually-in-every-state/Nevada-2390-62/slideshow/70279735.cms)
+socialmedia - 1.5 (https://www.broadbandsearch.net/blog/average-daily-time-on-social-media#post-navigation-3)
+work - 5.7 || 40hours perweek till you're 60(optimistic)
