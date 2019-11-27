@@ -9,6 +9,7 @@ import Jumbotron from 'react-bootstrap/Jumbotron'
 import { Condata } from './components/countries';
 import Ftable from './components/ftable'
 import Calsmodule from './components/caluculations'
+import Navbar from 'react-bootstrap/Navbar'
 
 var headings= ['Time spent on','Optimistically (years)',"Health Adjusted (years)"]
 
@@ -60,24 +61,44 @@ class App  extends Component {
         <h6> Here is how you gonna waste your remaining years</h6>
       </div>
 
-      var foot = <p><a href='https://en.wikipedia.org/wiki/List_of_countries_by_life_expectancy'>Click here</a> for source on your life expectancy</p>
+      var foot = <div>
+                  <h6>This analysis assumes you will be active your whole living life, but in reality, people become slow as they get old reducing time</h6>
+                  <p>These calculations are made useing global averages . Daily "sleeping 7h"|"Eating 1.2h"|"Commute 0.7h"|"Social Media 1.5h"|"Daily Chores(brush,bath,dress..) 1h"</p>
+                  <p><a href='https://en.wikipedia.org/wiki/List_of_countries_by_life_expectancy'>Click here</a> for source on your life expectancy</p>
+                  <h3>You have less time, it's not worth waiting</h3>
+                  <p>Happy Crisis</p>
+                </div>
+
+      var content = <Ftable heading = { headings } data={this.state.data}/>
     }
     else{
       var report = <h3>Please input the above details</h3>
       var foot = <p></p>
     }
     return (
-      <div className={'col-12 row h-100 p-0 m-0'}>
+      <div className={'h-100 m-0'}>
+      <Navbar>
+        <Navbar.Brand href="#home">TimeLeft Calculator</Navbar.Brand>
+        <Navbar.Toggle />
+        <Navbar.Collapse className="justify-content-end">
+          <Navbar.Text>
+            Created By : <a href="https://www.linkedin.com/in/umasai-u/"><strong>Sam</strong></a> || View Source :<a href="https://github.com/frier-sam/TimeLeft"><strong>Github</strong></a>
+          </Navbar.Text>
+        </Navbar.Collapse>
+      </Navbar>
 
-        <Jumbotron className={ 'col-lg-6 col-md-6 col-sm-12 col-xs-12 m-0'} bsPrefix={'left'}>
-            <UserForm years={this.getyears()} genders={['Male','Female','Others']} calfunc={Calsmodule} update={this.updatedata}/>
-        </Jumbotron>
+        <div className={'col-12 row h-100 p-0 m-0'}>
 
-        <Jumbotron className={ 'col-lg-6 col-md-6 col-sm-12 col-xs-12 m-0 text-center'} bsPrefix={'right'}>
-          {report}
-          <Ftable heading = { headings } data={this.state.data}/>
-          {foot}
-        </Jumbotron>
+          <Jumbotron className={ 'col-lg-6 col-md-6 col-sm-12 col-xs-12 m-0 '} bsPrefix={'left'}>
+              <UserForm years={this.getyears()} genders={['Male','Female','Others']} calfunc={Calsmodule} update={this.updatedata}/>
+          </Jumbotron>
+
+          <Jumbotron className={ 'col-lg-6 col-md-6 col-sm-12 col-xs-12 m-0 text-center'} bsPrefix={'right'}>
+            {report}
+            {content}
+            {foot}
+          </Jumbotron>
+        </div>
       </div>
     );
   }

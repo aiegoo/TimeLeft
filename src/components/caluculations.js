@@ -11,6 +11,7 @@ function getwyears(ryears,rhyears,le,hle){
     ["Eating",1.2],
     ["Commute",0.7],
     ["Social Media",2],
+    ["Daily Chores",1],
     ["Work (40 Hours per week till 60y)",5.7]
   ];
   for (var i=0;i<data.length;i++){

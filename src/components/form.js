@@ -70,11 +70,11 @@ class UserForm extends Component {
           </Form.Group>
 
           <Form.Group controlId="formBasicCheckbox">
-            <Form.Check type="checkbox" label="I don't hold anyone reponsible for the result" />
+            <Form.Check type="checkbox" label="I am willing to have existensial crisis" />
           </Form.Group>
           <Col className={'col-12 text-center'}>
           <Button variant="primary"  onClick={()=>this.getcalsandupdate()}>
-            Caluculate Time
+            Calculate
           </Button>
           </Col>
       </Form>
