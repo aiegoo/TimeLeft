@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/TimeLeft/static/css/main.b100e6da.chunk.css",
+    "main.js": "/TimeLeft/static/js/main.425889d7.chunk.js",
+    "main.js.map": "/TimeLeft/static/js/main.425889d7.chunk.js.map",
+    "runtime-main.js": "/TimeLeft/static/js/runtime-main.75baf762.js",
+    "runtime-main.js.map": "/TimeLeft/static/js/runtime-main.75baf762.js.map",
+    "static/css/2.b0bb7f2c.chunk.css": "/TimeLeft/static/css/2.b0bb7f2c.chunk.css",
+    "static/js/2.39813c60.chunk.js": "/TimeLeft/static/js/2.39813c60.chunk.js",
+    "static/js/2.39813c60.chunk.js.map": "/TimeLeft/static/js/2.39813c60.chunk.js.map",
+    "index.html": "/TimeLeft/index.html",
+    "precache-manifest.21f93cefd241239d7640e273e27d5e34.js": "/TimeLeft/precache-manifest.21f93cefd241239d7640e273e27d5e34.js",
+    "service-worker.js": "/TimeLeft/service-worker.js",
+    "static/css/2.b0bb7f2c.chunk.css.map": "/TimeLeft/static/css/2.b0bb7f2c.chunk.css.map",
+    "static/css/main.b100e6da.chunk.css.map": "/TimeLeft/static/css/main.b100e6da.chunk.css.map",
+    "static/media/logo.svg": "/TimeLeft/static/media/logo.25bf045c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.75baf762.js",
+    "static/css/2.b0bb7f2c.chunk.css",
+    "static/js/2.39813c60.chunk.js",
+    "static/css/main.b100e6da.chunk.css",
+    "static/js/main.425889d7.chunk.js"
+  ]
+}
