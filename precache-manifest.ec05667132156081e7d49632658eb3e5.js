@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "01c4c32094854b08f8eeb6f4865932c7",
+    "revision": "f76dcd062d7880804143ba890b68679c",
     "url": "/TimeLeft/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/TimeLeft/static/css/2.b0bb7f2c.chunk.css"
   },
   {
-    "revision": "8748c5266ece7a9d57af",
+    "revision": "3300c982edb80e60ab86",
     "url": "/TimeLeft/static/css/main.b100e6da.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/TimeLeft/static/js/2.7fc323cc.chunk.js"
   },
   {
-    "revision": "8748c5266ece7a9d57af",
-    "url": "/TimeLeft/static/js/main.7bbb44be.chunk.js"
+    "revision": "3300c982edb80e60ab86",
+    "url": "/TimeLeft/static/js/main.d74e5706.chunk.js"
   },
   {
     "revision": "bd49c8e223597f1390be",
