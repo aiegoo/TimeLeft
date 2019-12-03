@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c680c3b4afd7b7428ce8045c88aa837f",
+    "revision": "93caf2ea2b93a21804a945a9efa033e1",
     "url": "/TimeLeft/index.html"
   },
   {
-    "revision": "46c4f1cf612cf0fdde78",
+    "revision": "003ec1f1d3f02aea7502",
     "url": "/TimeLeft/static/css/2.b0bb7f2c.chunk.css"
   },
   {
-    "revision": "3300c982edb80e60ab86",
+    "revision": "f741ccc7e80b6cd25faf",
     "url": "/TimeLeft/static/css/main.b100e6da.chunk.css"
   },
   {
-    "revision": "46c4f1cf612cf0fdde78",
-    "url": "/TimeLeft/static/js/2.7fc323cc.chunk.js"
+    "revision": "003ec1f1d3f02aea7502",
+    "url": "/TimeLeft/static/js/2.61c5425d.chunk.js"
   },
   {
-    "revision": "3300c982edb80e60ab86",
-    "url": "/TimeLeft/static/js/main.d74e5706.chunk.js"
+    "revision": "f741ccc7e80b6cd25faf",
+    "url": "/TimeLeft/static/js/main.9b26b0b1.chunk.js"
   },
   {
     "revision": "bd49c8e223597f1390be",
